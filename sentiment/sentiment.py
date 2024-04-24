@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 def main():
     parser = argparse.ArgumentParser("Sentiment Analysis")
-    parser.add_argument('file', help='file with the text to analysis on CSV format')
-    parser.add_argument('text_column', help='column in the file that contains the text')
+    parser.add_argument('comments_cleaned', help='file with the text to analysis on CSV format')
+    parser.add_argument('comment_text', help='column in the file that contains the text')
     args = parser.parse_args()
 
     df_text = pd.read_csv(args.file)#, lineterminator='\n')
@@ -18,6 +18,7 @@ def main():
 
     # Define the total number of iterations
     total_iterations = len(df_text)
+    
     # Create a progress bar
     progress_bar = tqdm(total=total_iterations, position=0, leave=True)
 

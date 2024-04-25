@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+plotly
+pandas_profiling
+ydata_profiling

@@ -1,0 +1,3 @@
+virtualenv -p /usr/bin/python3 .venv_eda
+source .venv_eda/bin/activate
+pip install -r requirements.txt

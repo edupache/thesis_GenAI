@@ -4,3 +4,5 @@ matplotlib
 plotly
 pandas_profiling
 ydata_profiling
+seaborn
+ipykernel

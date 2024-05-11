@@ -3,5 +3,6 @@ langchain
 langchain-community 
 langchain-core 
 beautifulsoup4 
-chromadb 
+chromadb==0.4.15 
 gradio
+sentence-transformers

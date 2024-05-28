@@ -6,3 +6,4 @@ beautifulsoup4
 chromadb==0.4.15 
 gradio
 sentence-transformers
+lark
